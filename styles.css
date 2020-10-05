@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: center;
+    background-color: #333; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red;
+  }
+
+form {
+    background-color: rgb(179, 179, 179);
+    border: solid;
+}
