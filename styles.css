@@ -30,5 +30,40 @@ form {
 
 
 a:active {
-    background-color: hotpink;
+    background-color: red;
   } 
+
+  ul {
+    border: 1px solid white;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+
+  button {
+      width: 8rem;
+      background-color: white;
+      color: black;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.header {
+    padding: 475px;
+    
+    text-align: center;
+    color: white;
+    background-image:  url(assets/Goat.jpg);
+    background-repeat: no-repeat;
+   background-size: contain;
+ 
+    
+  }
